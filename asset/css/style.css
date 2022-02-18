@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    background-color: #000000;
+    height: calc( 10vh - 100px);
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.settings-right{
+    display: flex;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    font-size: 0.9em;
+}
+
+.bordo{
+    background-color: grey;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.container-img{
+    display: flex;
+}
+
