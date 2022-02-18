@@ -7,10 +7,13 @@
 
 body{
     background-color: #000000;
-    height: calc( 10vh - 100px);
     color: white;
-    display: flex;
+    
+}
+
+header{
     position: relative;
+    height: 70px;
 }
 
 .settings-right{
@@ -28,7 +31,31 @@ body{
     margin-right: 10px;
 }
 
+main{
+    height: calc( 100vh - 100px);
+}
+
+.immagine{
+    position: relative;
+}
+
 .container-img{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.immagine{
+    margin-top: 10px;
+}
+
+.palla{
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    background: rgba(210, 210, 210, 0.3);
+    left: 0;
+    padding: 5px;
+}
+
 
