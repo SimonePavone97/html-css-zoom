@@ -41,6 +41,8 @@ main{
 
 footer{
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
     background-color: #0D1117;
 }
 
@@ -65,18 +67,49 @@ footer{
 
 .menu-left{
     display: flex;
+    align-items: center;
 }
+
+.mute-menu,
+.video-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
 
 .menu-center{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .icon-menu-center{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
 }
 
 .menu-right{
     display: flex;
 }
 
+.end{
+    display: flex;
+    align-items: center;
+    background-color: violet;
+    color: red;
+    padding: 20px;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.fa-angle-up{
+    display: flex;
+    margin-left: 10px;
+}
